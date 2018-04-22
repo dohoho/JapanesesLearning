@@ -1,0 +1,8 @@
+E:\Project\testCode\FlipCard\FlipCard\bin\Debug\FlipCard.exe.config
+E:\Project\testCode\FlipCard\FlipCard\bin\Debug\FlipCard.exe
+E:\Project\testCode\FlipCard\FlipCard\bin\Debug\FlipCard.pdb
+E:\Project\testCode\FlipCard\FlipCard\obj\Debug\JapaneseLearning.Form1.resources
+E:\Project\testCode\FlipCard\FlipCard\obj\Debug\FlipCard.Properties.Resources.resources
+E:\Project\testCode\FlipCard\FlipCard\obj\Debug\JapaneseLearning.csproj.GenerateResource.Cache
+E:\Project\testCode\FlipCard\FlipCard\obj\Debug\FlipCard.exe
+E:\Project\testCode\FlipCard\FlipCard\obj\Debug\FlipCard.pdb
