@@ -6,3 +6,12 @@ E:\Project\testCode\FlipCard\FlipCard\obj\Debug\FlipCard.Properties.Resources.re
 E:\Project\testCode\FlipCard\FlipCard\obj\Debug\JapaneseLearning.csproj.GenerateResource.Cache
 E:\Project\testCode\FlipCard\FlipCard\obj\Debug\FlipCard.exe
 E:\Project\testCode\FlipCard\FlipCard\obj\Debug\FlipCard.pdb
+E:\Project\testCode\JapaneseLearning\JapaneseLearning\bin\Debug\FlipCard.exe.config
+E:\Project\testCode\JapaneseLearning\JapaneseLearning\obj\Debug\FlipCard.exe
+E:\Project\testCode\JapaneseLearning\JapaneseLearning\obj\Debug\FlipCard.pdb
+E:\Project\testCode\JapaneseLearning\JapaneseLearning\bin\Debug\FlipCard.exe
+E:\Project\testCode\JapaneseLearning\JapaneseLearning\bin\Debug\FlipCard.pdb
+E:\Project\testCode\JapaneseLearning\JapaneseLearning\obj\Debug\JapaneseLearning.csprojResolveAssemblyReference.cache
+E:\Project\testCode\JapaneseLearning\JapaneseLearning\obj\Debug\JapaneseLearning.Form1.resources
+E:\Project\testCode\JapaneseLearning\JapaneseLearning\obj\Debug\FlipCard.Properties.Resources.resources
+E:\Project\testCode\JapaneseLearning\JapaneseLearning\obj\Debug\JapaneseLearning.csproj.GenerateResource.Cache

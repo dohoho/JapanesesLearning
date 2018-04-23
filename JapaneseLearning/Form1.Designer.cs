@@ -40,6 +40,7 @@
             this.chkShowRomaji = new System.Windows.Forms.CheckBox();
             this.chkSenquence = new System.Windows.Forms.CheckBox();
             this.btnPrevious = new System.Windows.Forms.Button();
+            this.lbKatakana = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -113,6 +114,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.lbKatakana);
             this.groupBox2.Controls.Add(this.lbRomajiKatakana);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(340, 37);
@@ -125,7 +127,7 @@
             // lbRomajiKatakana
             // 
             this.lbRomajiKatakana.AutoSize = true;
-            this.lbRomajiKatakana.Location = new System.Drawing.Point(89, 184);
+            this.lbRomajiKatakana.Location = new System.Drawing.Point(106, 184);
             this.lbRomajiKatakana.Name = "lbRomajiKatakana";
             this.lbRomajiKatakana.Size = new System.Drawing.Size(51, 20);
             this.lbRomajiKatakana.TabIndex = 8;
@@ -164,6 +166,16 @@
             this.btnPrevious.Text = "<< Previous";
             this.btnPrevious.UseVisualStyleBackColor = true;
             this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
+            // 
+            // lbKatakana
+            // 
+            this.lbKatakana.AutoSize = true;
+            this.lbKatakana.Font = new System.Drawing.Font("Times New Roman", 99.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbKatakana.Location = new System.Drawing.Point(56, 32);
+            this.lbKatakana.Name = "lbKatakana";
+            this.lbKatakana.Size = new System.Drawing.Size(172, 151);
+            this.lbKatakana.TabIndex = 9;
+            this.lbKatakana.Text = "あ";
             // 
             // Form1
             // 
@@ -205,6 +217,7 @@
         private System.Windows.Forms.Label lbRomajiKatakana;
         private System.Windows.Forms.CheckBox chkSenquence;
         private System.Windows.Forms.Button btnPrevious;
+        private System.Windows.Forms.Label lbKatakana;
     }
 }
 

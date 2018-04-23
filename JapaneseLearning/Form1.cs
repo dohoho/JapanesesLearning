@@ -14,6 +14,7 @@ namespace JapaneseLearning
     {
         
         private Dictionary<int, string> dicHiragana = new Dictionary<int, string>();
+        private Dictionary<int, string> dicKatakana = new Dictionary<int, string>();
         private Random rd = new Random();
         public Form1()
         {
@@ -21,6 +22,10 @@ namespace JapaneseLearning
             for(int i = 1; i <= hiragana.Length; i++)
             {
                 dicHiragana.Add(i, hiragana[i - 1]);
+            }
+            for(int j = 1; j <= katakana.Length; j++)
+            {
+                dicKatakana.Add(j, katakana[j - 1]);
             }
         }
         int i = 0;
@@ -30,7 +35,8 @@ namespace JapaneseLearning
             if (chkSenquence.Checked)
             {
                 lbHiragana.Text = dicHiragana[i+1];
-                lbRomaijHiragana.Text = romaji[i];
+                lbRomajiKatakana.Text = lbRomaijHiragana.Text = romaji[i];
+                lbKatakana.Text = dicKatakana[i + 1];
                 previous = i;
                 i++;
             }
@@ -39,7 +45,8 @@ namespace JapaneseLearning
                 int a = rd.Next(0, 103);
                 previous = a;
                 lbHiragana.Text = dicHiragana[a+1];
-                lbRomaijHiragana.Text = romaji[a];
+                lbKatakana.Text = dicKatakana[a + 1];
+                lbRomajiKatakana.Text = lbRomaijHiragana.Text = romaji[a];
             }
             ShowHideRomajiHiragana();
         }
@@ -68,6 +75,22 @@ namespace JapaneseLearning
                 lbRomaijHiragana.Hide();
             }
         }
+        private string[] katakana = {"ア","イ","ウ","エ","オ",
+                                    "カ","キ","ク","ケ","コ",
+                                    "サ","シ","ス","セ","ソ",
+                                    "タ","チ","ツ","テ","ト",
+                                    "ナ","ニ","ヌ","ネ","ノ",
+                                    "ハ","ヒ","フ","ヘ","ホ",
+                                    "マ","ミ","ム","メ","モ",
+                                    "ヤ","ユ","ヨ",
+                                    "ラ","リ","ル","レ","ロ",
+                                    "ワ","ヲ","ン",
+                                    "ガ","ギ","グ","ゲ","ゴ",
+                                    "ザ","ジ","ズ","ゼ","ゾ",
+                                    "ダ","ヂ","ヅ","デ","ド",
+                                    "バ","ビ","ブ","ベ","ボ",
+                                    "パ","ピ","プ","ペ","ポ"
+                                    };
         private string[] hiragana =    {"あ","い","う","え","お",
                                         "か","き","く","け","こ",
                                         "さ","し","す","せ","そ",
